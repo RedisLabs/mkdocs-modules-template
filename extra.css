@@ -1,0 +1,18 @@
+.md-announce__inner {
+    font-size: 1.125em;
+    text-align: end;
+}
+
+.md-footer-modules {
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+}
+
+.md-footer-modules > a {
+    margin: 0 1em;
+}
+
+.md-footer-modules > a:last-child {
+    border-inline-end: none;
+}

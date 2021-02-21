@@ -1,0 +1,5 @@
+<div class="md-footer-modules">
+    {% for module in config.extra.modules %}
+        <a href="{{ module.link }}" title="{{ module.name }}">{{ module.name }}</a>
+    {% endfor %}
+</div>
