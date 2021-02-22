@@ -8,12 +8,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    line-height: 3em;
 }
 
 .md-footer-modules > a {
     margin: 0 1em;
-}
-
-.md-footer-modules > a:last-child {
-    border-inline-end: none;
 }
