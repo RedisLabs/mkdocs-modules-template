@@ -1,34 +1,6 @@
-.md-announce {
-    background: #000000;
-}
-
 .md-announce__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 1.125em;
-}
-
-@media only screen and (max-width: 76.25em) {
-    .md-announce__inner {
-        font-size: 1em;
-    }
-}
-
-@media only screen and (max-width: 52em) {
-    .md-announce__inner {
-        display: block;
-        text-align: center;
-    }
-
-    .md-announce__inner > div.redis-conf {
-        margin-bottom: 0.25em;
-    }
-}
-
-.md-announce__inner > div.redis-conf {
-    font-size: 1.5em;
-    font-weight: 700;
+    text-align: end;
 }
 
 .md-footer-modules {
